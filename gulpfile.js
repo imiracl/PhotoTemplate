@@ -1,4 +1,4 @@
-var syntax         = 'sass', // Syntax: sass or scss;
+var syntax         = 'scss', // Syntax: sass or scss;
 		gulpVersion    = '4'; // Gulp version: 3 or 4
 		gmWatch        = false; // ON/OFF GraphicsMagick watching "img/_src" folder (true/false). Linux install gm: sudo apt update; sudo apt install graphicsmagick
 
@@ -32,7 +32,7 @@ gulp.task('browser-sync', function() {
 // Sass|Scss Styles
 gulp.task('styles', function() {
 	return gulp.src('app/'+syntax+'/**/*.'+syntax+'')
-	.pipe(sass({ outputStyle: 'expanded' }).on("error", notify.onError()))
+	.pipe(sass({ outputStyle: 'expanded' }).off("error", notify.onError()))//менять тут
 	.pipe(rename({ suffix: '.min', prefix : '' }))
 	.pipe(autoprefixer(['last 15 versions']))
 	.pipe(cleancss( {level: { 1: { specialComments: 0 } } })) // Opt., comment out when debugging

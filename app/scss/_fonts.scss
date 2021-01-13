@@ -1,4 +1,19 @@
+//Примерно, так как у каждого шрифта свои значения...
+// 100 – Thin || Hairline
+// 200 – Extra Light || Ultra Light || Thin
+// 300 – Light
+// 400 – Normal || Regular
+// 500 – Medium
+// 600 – Semi Bold || Demi Bold
+// 700 – Bold
+// 800 – Extra Bold || Ultra Bold || Heavy
+// 900 – Black || Heavy
 @import "_mixins/font-face";
 
 @include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
 @include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("Tahu", "../fonts/tahu/Tahu", 400);
+@include font-face("Poppins-Regular", "../fonts/Poppins/Poppins-Regular", 400);
+@include font-face("Poppins-Bold", "../fonts/Poppins/Poppins-Bold", bold);
+@include font-face("Poppins-Medium", "../fonts/Poppins/Poppins-Medium", 500);
+@include font-face("Poppins-SemiBold", "../fonts/Poppins/Poppins-SemiBold", 600);

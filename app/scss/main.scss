@@ -2,52 +2,25 @@
 @import "fonts";
 @import "libs";
 
-::placeholder {
-	color: #666;
+h2 {
+  font-family: "tahu";
+  color: green;
 }
-
-::selection {
-	background-color: $accent;
-	color: #fff;
+.Poppins-Regular {
+  font-family: Poppins-Regular;
+  font-size: 40px;
 }
-
-body {
-	font-size: 16px;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.65;
-	font-family: $default-font;
-	overflow-x: hidden;
-	color: $text;
-	input, textarea {
-		border: #666 1px solid;
-		outline: none;
-		&:focus:required:invalid {
-			border-color: red;
-		}
-		&:required:valid {
-			border-color: green;
-		}
-	}
+.Poppins-Bold {
+  font-family: Poppins-Bold;
+  font-size: 40px;
 }
-
-.img-responsive {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	&.img-width {
-		width: 100%;
-	}
+.Poppins-Medium {
+  font-family: Poppins-Medium;
+  font-size: 40px;
 }
-
-.text-center {
-	text-align: center;
+.Poppins-SemiBold {
+  font-family: Poppins-SemiBold;
+  font-size: 40px;
 }
-
-b, strong {
-	font-weight: bold;
-}
-
-
 
 @import "media"; // Always at the end
