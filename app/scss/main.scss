@@ -2,25 +2,28 @@
 @import "fonts";
 @import "libs";
 
-h2 {
-  font-family: "tahu";
-  color: green;
+// <!-- HEADER SECTION-->
+.header-menu {
+  max-width: 1720px;
+  margin: 0 auto;
+  display: flex;
 }
-.Poppins-Regular {
-  font-family: Poppins-Regular;
-  font-size: 40px;
+.wrapper-logo{
+  flex: 0 100000 50%;
+ 
 }
-.Poppins-Bold {
-  font-family: Poppins-Bold;
-  font-size: 40px;
+
+.wrapper__header-menu {
+  //flex: 1 0 0;
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
 }
-.Poppins-Medium {
-  font-family: Poppins-Medium;
-  font-size: 40px;
-}
-.Poppins-SemiBold {
-  font-family: Poppins-SemiBold;
-  font-size: 40px;
+.social-icons-block{
+  img{
+   
+  }
 }
 
 @import "media"; // Always at the end
