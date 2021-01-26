@@ -143,22 +143,32 @@ a {
 }
 .companies_session {
   flex: 0 0 50%;
+  h3{
+    text-transform: uppercase;
+    font-family: Poppins-SemiBold;
+    font-size: 30px;
+    text-align: center;
+  }
 }
 .center_session_wrapper {
   max-width: 429px;
   margin: 0 auto;
+  h3{
+    text-transform: uppercase;
+    font-family: Poppins-SemiBold;
+    font-size: 30px;
+  }
 }
 .number_block{
-  line-height: 0px;
+ // line-height: 0px;
   font-size: 80px;
   font-family: Poppins-Bold;
   opacity: 20%;
-  
-  
+  position: relative;
+  bottom: -30px;
 }
 .number__block_line{
  
-<<<<<<< HEAD
  border-bottom: 1px solid rgba(255, 255, 255, .2); 
 
 }
@@ -169,14 +179,5 @@ a {
 }
 .session_text_block{
   
-=======
-// border-bottom: 1px solid rgba(255, 255, 255, .2); 
- background-image: linear-gradient(to right, black  100%, transparent 75%);
- background-position: 0 1.04em;
- background-repeat: repeat-x;
- background-size: 1px 1px;
-
->>>>>>> parent of 8ef1406... Center
 }
-
 @import "media"; // Always at the end
