@@ -60,7 +60,6 @@ a {
 }
 
 .btn-main__red {
-  
   background-color: $btn-red;
   border-radius: 3px;
   font-family: Poppins-Regular;
@@ -70,17 +69,14 @@ a {
   color: white;
   font-size: 16px;
   white-space: nowrap;
-  
-  &_seemore{
-   padding: 12px 70px;
-   margin-top: 90px;
-   
-  }
-  &-dark{
 
+  &_seemore {
+    padding: 12px 70px;
+    margin-top: 90px;
   }
-  &-light{
-    
+  &-dark {
+  }
+  &-light {
   }
 }
 .btn__small {
@@ -134,8 +130,6 @@ a {
 .sessions-section {
   margin-top: 98px;
   display: flex;
- 
-  
 }
 .individual_session {
   flex: 0 0 50%;
@@ -149,7 +143,6 @@ a {
     padding: 0px;
     margin: 0px;
   }
-  
 }
 .companies_session {
   flex: 0 0 50%;
@@ -159,7 +152,7 @@ a {
     font-size: 30px;
     text-align: center;
   }
-  p{
+  p {
     margin: 0px;
     padding: 0px;
   }
@@ -219,17 +212,17 @@ a {
   margin: 0 auto;
   margin-top: 80px;
 }
-.person__icons{
+.person__icons {
   display: block;
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 15px;
 }
-.dark-number{
+.dark-number {
   color: #222222;
   opacity: 20%;
 }
-.number__block_line_first-dark{
+.number__block_line_first-dark {
   position: relative;
   display: block;
   left: 24px;
@@ -239,7 +232,7 @@ a {
   content: "";
   max-width: 400px;
 }
-.number__block_line_second-dark{
+.number__block_line_second-dark {
   position: relative;
   display: block;
   left: 43px;
@@ -249,26 +242,76 @@ a {
   content: "";
   max-width: 380px;
 }
-.center-button-wrapper{
- 
+.center-button-wrapper {
   display: flex;
   justify-content: center;
-  
 }
-.number-block-text{
+.number-block-text {
   font-family: Poppins-Regular;
   font-size: 18px;
   margin-left: 45px;
   position: relative;
   top: 10px;
-  &_dark{
+  &_dark {
     color: white;
   }
-  &_light{
+  &_light {
     color: #222222;
   }
 }
-.individual_session_block{
+.individual_session_block {
   margin-bottom: 100px;
 }
+
+//                       <!-- MAP SECTION-->
+.map-section {
+  position: relative;
+  display: none; //hide map
+}
+.near-me-map {
+}
+.studio-near-me-wrapp {
+  min-width: 700px;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+.studio-near-me {
+  h2 {
+    font-family: Poppins-SemiBold;
+    font-size: 50px;
+    color: #222222;
+    margin-top: 50px;
+    margin-left: 45px;
+  }
+  p {
+    font-size: 18px;
+    font-family: Poppins-Regular;
+    margin-left: 45px;
+  }
+}
+.map-section_search__block {
+ 
+  input {
+    min-width: 204px;
+    min-height: 45px;
+    border: none;
+    background-color: #f6f6f6;
+    
+
+    margin-left: 50px;
+    margin-bottom: 47px;
+    margin-top: 5px;
+    padding-right: 0px;
+
+  }
+  button{
+    padding: 12px 48px 9px 48px;
+    border-radius: 0;
+    margin-left: -4px;
+  }
+  
+}
+
 @import "media"; // Always at the end
