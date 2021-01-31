@@ -5,6 +5,7 @@
 // <!-- HEADER SECTION-->
 body {
   font-size: 16px;
+  height: 7400px;
 }
 a {
   text-decoration: none !important;
@@ -314,4 +315,61 @@ a {
   
 }
 
+
+
+// <!-- OUR-PROFESSIONAL SECTION-->
+.our-professional-section{
+  margin-top:110px;
+}
+.our-professional-section__wrapper{
+  
+  h2{
+    margin-bottom: 45px;
+  }
+  width: 1560px;
+  margin: 0 auto;
+  .midle-navigation{
+    max-width: 988px;
+    margin: 0 auto;
+    ul{
+      padding-left: 0px;
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      
+
+      
+    }
+    a{
+      color: #ababab;
+      font-size: 18px;
+      font-family: Poppins-Regular;
+      
+    }
+    
+  }
+ 
+}
+.h2-title__dark{
+  text-align: center;
+  font-family: Poppins-SemiBold;
+  font-size: 50px;
+  line-height: 1.1;
+
+}
+.our-active{
+  color: #222222 !important;
+}
+/* SLIDER*/
+.main-slider{
+ // display: flex;
+}
+.slick_slider{
+  width: 765px;
+}
+#form1{
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+}
 @import "media"; // Always at the end
