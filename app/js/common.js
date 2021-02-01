@@ -4,8 +4,7 @@ $(function () {
 	$('.slick_slider').slick({
 		dots: false,
 		infinite: false,
-		asNavFor: '.single-slider',
-		speed: 300,
+			speed: 300,
 		slidesToShow: 2,
 		slidesToScroll: 2,
 		rows: 2,
@@ -40,19 +39,8 @@ $(function () {
 			// instead of a settings object
 		]
 	});
-	$('.single-slider').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		asNavFor: '.slick_slider',
-		dots: false,
-		centerMode: true,
-		focusOnSelect: true
-	});
-	
-	$('.add_guest .stock').on('click', function(e) {
-		$(e.target).next().clone().appendTo(".slider-mok");
-	});
 
+	
 });
 
 // const lightbox = document.createElement('div') //создание дива и присвоение дива к lightbox 
@@ -66,6 +54,7 @@ for (const child of images){
 	child.addEventListener('click' , e=>{
 		const img = document.createElement('img')
 		img.src = child.src
+		img.classList.add('righ-lightbox-img')
 		while (lightbox.firstChild){
 			lightbox.removeChild(lightbox.firstChild)
 		}
