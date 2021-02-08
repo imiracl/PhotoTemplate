@@ -469,6 +469,7 @@ a {
 .important-section{
   background-color: #f6f6f6;
   margin-top:150px;
+  padding-bottom: 40px;
 }
 .important-section_wrapper{
   width: 1560px;
@@ -477,12 +478,17 @@ a {
   padding-top: 70px;
 }
 .important-sec_left{
-  width: 52%;
+  max-width: 52%;
+  flex-grow: 2;
+  flex-shrink: 10;
+ // flex-shrink: 7;
+  
   
   p{
     max-width:615px;
     font-size: 18px;
     line-height: 1.8;
+    
 
   }
   h2{
@@ -509,18 +515,22 @@ a {
   display: flex;
   margin-top: 70px;
   justify-content: space-between;
+  
 }
 .useful-left-block{
  width: 50%;
+ margin-right: 90px;
 
 }
 .useful-right-block{
+ 
   width: 45%;
 }
 
 .useful-content{
+  
   vertical-align: bottom;
-  margin-bottom: 67px;
+  margin-bottom: 57px;
   padding-bottom: 7px;
   img{
     
@@ -539,8 +549,84 @@ margin-top: -50px !important;
 position: relative;
 top: 17px;
 }
+.professional-headshot-services-section{
+ position: relative;
+ left: 295px;
+ top: -58px;
+  background-color: #222222;
+  color: white;
+  max-width: 1060px;
+  padding: 52px 80px 30px 80px;
+  
 
 
+  .prof-hed-wrapper{
+    
+    
+    h3{
+      color: white;
+      font-size: 22px;
+      font-family: Poppins-SemiBold;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+    p{
+      font-size: 18px;
+      font-family: Poppins-Regular;
+      line-height: 1.7;
+      margin-bottom: 34px;
+    }
+  }
+}
+.red-arrow{
+  position: absolute;
+  left: -110px;
+  top: -100px;
+}
+
+// <!-- FEEDBACK SECTION-->
+
+.feedback-corousel-item{
+  max-width: 490px;
+}
+.obfuscation-img{
+
+}
+.feedback-name-block{
+  display: flex;
+  margin-top: 29px;
+  margin-bottom: 35px;
+}
+.feedback-nam{
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.feedback-stars-block{
+  margin-left: auto;
+  .fa-star{
+    color: #ff3c2d;
+
+  }
+}
+
+.feedback-quot{
+  
+  max-width: 412px;
+  margin: 0 auto;
+  position: relative;
+  line-height: 1.7;
+  font-family: Poppins-Italic;
+  
+   span{
+     font-family: ProximaNova-Regular;
+     line-height: 0px;
+     font-size: 220px;
+     //opacity: 10%;
+    position: absolute;
+    bottom: 0px;
+   }
+}
 
 
 
