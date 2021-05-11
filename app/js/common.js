@@ -47,9 +47,11 @@ $(function () {
     slidesToScroll: 3,
     arrows: false,
     dots: true,
-    draggable: true,
+   draggable: true,
     variableWidth: true, //произвольная ширина!!!!!!!!!!
-   // appendDots: $('.middle-sold'),
+   // appendDots: $('.slick-slider-dots'),
+   dotsClass: 'my-dots-class',
+    
   });
       
 	

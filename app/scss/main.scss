@@ -671,6 +671,7 @@ a {
 .feedback-section-wrapper {
   width: 1560px;
   margin: 0 auto;
+  padding-bottom: 125px;
 
   .clients-love-us {
     padding-top: 100px;
@@ -705,7 +706,7 @@ margin: 0 45px;
 }
 .feedback-corousel-item {
  
- border: red solid 1px;
+
  max-width: 490px;
  
 }
@@ -739,7 +740,7 @@ margin: 0 45px;
 
 .feedback-quot {
 
- // max-width: 412px;
+ max-width: 412px;
   margin: 0 auto;
   position: relative;
   line-height: 1.9;
@@ -757,6 +758,39 @@ margin: 0 45px;
   }
 }
 
+
+.my-dots-class{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+  
+  li{
+   
+    button{
+      display: none;
+    }
+    margin: 0 10px;
+    display: inline-block;
+    list-style-type: none;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .slick-active{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: solid 2px #ff3c2d;
+    border-radius: 50%;
+    
+    
+    
+
+  }
+}
+  
 
 
 
