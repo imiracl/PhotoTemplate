@@ -8,6 +8,7 @@ body {
   height: 7400px;
   font-family: Poppins-Regular;
   //box-sizing:border-box;
+ 
 }
 
 a {
@@ -693,20 +694,25 @@ a {
 }
 
 .feedback-corousel {
+  
   margin-top: 60px;
   //display: flex;
-  justify-content: space-between;
+ // justify-content: space-between;
 }
 .middle-item{
-  margin-right: 43px;
-  margin-left: 43px;
-}
-.feedback-corousel-item {
-  max-width: 490px;
-  
-  
+margin: 0 45px;
 
 }
+.feedback-corousel-item {
+ 
+ border: red solid 1px;
+ max-width: 490px;
+ 
+}
+.feedback-corousel{
+//  margin: 0 -45px;
+}
+
 
 .obfuscation-img {}
 
@@ -733,7 +739,7 @@ a {
 
 .feedback-quot {
 
-  max-width: 412px;
+ // max-width: 412px;
   margin: 0 auto;
   position: relative;
   line-height: 1.9;
@@ -757,6 +763,9 @@ a {
 .slick-slide {
   outline: none
 }
+
+
+
 
 
 
