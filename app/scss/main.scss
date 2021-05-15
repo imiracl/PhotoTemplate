@@ -819,6 +819,14 @@ a {
 
 // <!-- OUR BLOG-->
 .our-blog-section{
+  &__btn{
+    display: block;
+    padding:8px 54px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top:60px;
+    
+  }
   &_title{
     text-align: center;
     margin-top: 78px;
