@@ -5,7 +5,6 @@
 // <!-- HEADER SECTION-->
 body {
   font-size: 16px;
-  height: 7400px;
   font-family: Poppins-Regular;
   //box-sizing:border-box;
 }
@@ -308,7 +307,7 @@ a {
 //                       <!-- MAP SECTION-->
 .map-section {
   position: relative;
-  display: none; //hide map
+ // display: none; //hide map
 }
 
 .near-me-map {
@@ -880,13 +879,143 @@ a {
      }
     }
   }
+padding-bottom: 120px;
+}
+
+
+
+
+
+// FOOTER_SECTION
+.footer-section{
+ 
+  a{
+    color: #d3d3d3;
+  }
+  p{color: #d3d3d3;
+    margin-bottom:10px;
+  }
+  .light-logo{
+    margin-top: -10px;
+  }
+  padding-top: 88px;
+  &-center-wrapper{
+    max-width: 1560px;
+    margin: 0 auto;
+    
+  }
+  background-color: #222222;
+  &_links_wrapper{
+    display: flex;
+    a{
+      color: #d3d3d3;
+    }
+    p{color: #626262;
+      margin-bottom:10px;
+    }
+  }
+  &_links{
+    flex: 0 0 22.5%;
+    
+  }
+  &__logo-wrapper{
+    flex: 0 0 27%;
+  }
+  &_title{
+    p{
+      font-size: 21px;
+    }
+  }
+  &_tittle{
+    color: #626262;
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+
+  &_constacts_wrapper{
+    
+    display: flex;
+    position: relative;
+    margin-top: 49px;
+  }
+  &_studio_inc_wrapper{
+    position: relative;
+    p{
+      margin-left: 35px;
+    }
+    
+    flex: 0 0 27%;
+    img{
+      margin-right: 10px;
+      position: absolute;
+      left: 10px;
+    }
+  }
+  &_contacts_wrapper{
+    flex: 0 0 22.5%;
+    a{
+      font-size: 30px;
+      
+    }
+    p{
+      margin-top: -10px;
+    }
+   
+  }
+  &_social_links_wrapper{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    text-align: end;
+    a{
+      border-bottom: 1px solid #444444;
+    }
+  }
+
+ &__copyright{
+   position: relative;
+   border-top: 1px solid #393939;
+   margin-top: 35px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   p{
+     color: #626262;
+     font-size: 18px;
+     
+     
+  }
+  &-first{
+    text-align: center;
+  }
+   &-second{
+    position: absolute;
+    right: 140px;
+   }
+ }
+
+
+
+
+
 
 }
 
 
 
 
-//338px
+
+
+
+
+
+.light-logo{
+  a{
+    color: #fefefe;
+  }
+
+ 
+}
+//1560px
 
 
 
