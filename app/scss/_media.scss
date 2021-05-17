@@ -8,11 +8,56 @@
 	body{
       
     }
+		.wrapper-logo{
+			flex: 0 0 5%;
+			a{
+				font-size: 40px;
+				
+			}
+		}
+		.wrapper__header-menu{
+			a{
+				margin-right: 25px;
+			}
+		
+		}
+		.info-block-fast{
+			margin-top: 30px;
+			.btn__big {
+				font-size: 14px;
+				padding: 5px 10px;
+				max-width: 215px;
+				margin-left: 10px;
+			}
+			h1{
+				font-size: 26px;
+				line-height: inherit;
+				padding-top: 0px;
+				margin-left: 10px;
+				
+			}
+			h2 {
+				padding-top: 0px;
+				font-size: 16px;
+				color: white;
+				font-family: Poppins-Regular;
+				padding-bottom: 10px;
+				margin-left: 10px;
+				
+			}
+			
+		}
 }
 
 // ≥992px
 @include media-breakpoint-down(md) {
-
+	.header-menu{
+		display: none !important;
+		visibility: hidden;
+	}
+	.hamburger-menu{
+		display: block;
+	}
 }
 
 // ≥768px
