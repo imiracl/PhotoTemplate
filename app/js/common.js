@@ -69,6 +69,13 @@ for (const child of images) {
   child.addEventListener("click", (e) => {
     const img = document.createElement("img");
     img.src = child.src;
+    let way = img.src; //в way присвоил путь картинки 
+    console.log("way =" , way);
+   let replaceWay = way.replace(".jpg" ,''); //удалил расширение файла у картинки
+   console.log("replace" , replaceWay);
+   replaceWay = replaceWay+"Big.jpg"; // Добавил к пути файла Big.jpg
+   img.src = replaceWay; // поменял путь картинки на новый
+   console.log(replaceWay);
     img.classList.add("righ-lightbox-img");
     while (lightbox.firstChild) {
       lightbox.removeChild(lightbox.firstChild);
