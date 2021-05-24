@@ -418,12 +418,13 @@ a {
 .main-slider {
   //  display: flex;
   position: relative;
-  max-width: 730px;
+  
   //758
 }
 
 .slick_slider {
   width: 100%;
+  max-width: 730px;
   margin-top: -23px;
 }
 
@@ -487,7 +488,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  right: 0px;
+  left: 365px;
   bottom: 0px;
 }
 
