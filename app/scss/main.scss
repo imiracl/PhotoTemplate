@@ -553,10 +553,11 @@ a {
 }
 
 .important-section_wrapper {
-  width: 1560px;
+  max-width: 1560px;
   margin: 0 auto;
   display: flex;
   padding-top: 70px;
+  flex-wrap: wrap;
 }
 
 .important-sec_left {
@@ -588,6 +589,7 @@ a {
     font-size: 60px;
     position: relative;
     left: 28px;
+    display: inline-block;
   }
 }
 
@@ -1141,8 +1143,8 @@ padding-bottom: 120px;
  
 }
 //1560px
-// .our-professional-section ,
-.section-header,.sessions-section,.map-section , .footer-section , .important-section,
+// .important-section,
+.section-header,.sessions-section,.our-professional-section ,.map-section , .footer-section , 
  .feedback-section ,.about-us-section , .our-blog-section{
   display: none;
 }
