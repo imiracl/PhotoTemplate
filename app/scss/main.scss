@@ -680,7 +680,7 @@ a {
 }
 
 .feedback-section-wrapper {
-  width: 1560px;
+  max-width: 1560px;
   margin: 0 auto;
   padding-bottom: 125px;
 
@@ -804,9 +804,13 @@ a {
     url("../img/_src/camera_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+
+    background-size: 100%;
+
+  
   min-height: 400px;
   //position: relative;
-  background-size: 100%;
+  //background-size: 100%;
   padding: 19px 15px;
   position: relative;
   &_inf {
@@ -1155,9 +1159,9 @@ padding-bottom: 120px;
  
 }
 //1560px
-// .important-section,
-.section-header,.sessions-section,.our-professional-section ,.map-section , .footer-section , 
- .feedback-section ,.about-us-section , .our-blog-section{
+//.about-us-section ,
+.section-header,.sessions-section,.our-professional-section ,.important-section,.map-section , .footer-section , 
+.feedback-section , .our-blog-section{
   display: none;
 }
 
