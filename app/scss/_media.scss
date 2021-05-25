@@ -46,7 +46,12 @@
     //width: 50%;
   }
   
-
+.our-blog-section{
+  .our-blog-section_card_img{
+    width: 100%;
+    height: auto;
+  }
+}
   
 }
 // ≥1200px
@@ -119,6 +124,11 @@
 
   .about-us-section__left__text{
     font-size: 40px;
+  }
+  .our-blog-section{
+    .our-blog-section_card__text{
+      padding: 0 10px;
+    }
   }
 
 }
@@ -230,6 +240,14 @@
     .about-us-section__left__text{
       font-size: 30px;
     }
+    .our-blog-section_card_wrapper{
+      flex-direction: column;
+      align-items: center;
+    }
+    .our-blog-section_card{
+      margin-top: 20px;
+    }
+    .our-blog-section_title{ margin-bottom: 30px;}
 }
 
 // ≥576px
