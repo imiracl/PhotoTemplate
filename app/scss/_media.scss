@@ -1,58 +1,58 @@
 @import "vars";
 
 /*==========  Desktop First  ==========*/
-@media screen and (max-width: 1990px) {.about-us-section {
-  background-size: auto;
-}}
+@media screen and (max-width: 1990px) {
+  .about-us-section {
+    background-size: auto;
+  }
+}
 @media screen and (max-width: 1600px) {
-  #lightbox{
+  #lightbox {
     display: none;
     visibility: hidden;
-    img{
+    img {
       display: none;
       visibility: hidden;
     }
   }
-   .main-slider{
+  .main-slider {
     max-width: 758px;
     margin: 0 auto;
-    
-    
   }
-  .important-sec_left{
+  .important-sec_left {
     padding-left: 10px;
     max-width: 50%;
   }
-  .professional-headshot-services-section{
+  .professional-headshot-services-section {
     left: 0px;
     max-width: 700px;
     top: -110px;
   }
-  .red-arrow{
+  .red-arrow {
     left: 0px;
   }
-  .useful-left-block{
+  .useful-left-block {
     margin-right: 0px;
   }
 
-
-
   // FEEDBACK-COROUSEL
-  .feedback-corousel-item_wrap{
+  .feedback-corousel-item_wrap {
     max-width: 490px;
     margin: 0 auto;
   }
-  .feedback-corousel-item{
+  .feedback-corousel-item {
     //width: 50%;
   }
-  
-.our-blog-section{
-  .our-blog-section_card_img{
-    width: 100%;
-    height: auto;
+
+  .our-blog-section {
+    .our-blog-section_card_img {
+      width: 100%;
+      height: auto;
+    }
   }
-}
-  
+  .footer-section-center-wrapper {
+    padding: 0 20px;
+  }
 }
 // ≥1200px
 @include media-breakpoint-down(lg) {
@@ -97,44 +97,67 @@
       font-size: 30px;
     }
   }
-  .important-sec_right_wrap{
+  .important-sec_right_wrap {
     flex-direction: column;
-    
   }
-  .useful-left-block{
+  .useful-left-block {
     width: 100%;
   }
-  .useful-right-block{
+  .useful-right-block {
     width: 100%;
   }
-  .important-sec_right{
+  .important-sec_right {
     width: 45%;
     margin-left: auto;
   }
-  .professional-headshot-services-section{
+  .professional-headshot-services-section {
     max-width: 100%;
     top: -20px;
   }
-  .useful-content{
+  .useful-content {
     margin-bottom: 30px;
   }
-  .red-arrow{
-    
+  .red-arrow {
   }
 
-  .about-us-section__left__text{
+  .about-us-section__left__text {
     font-size: 40px;
   }
-  .our-blog-section{
-    .our-blog-section_card__text{
+  .our-blog-section {
+    .our-blog-section_card__text {
       padding: 0 10px;
     }
   }
-
+  .footer-section_constacts_wrapper {
+    .footer-section_studio_inc_wrapper {
+      flex: 0 0 33%;
+    }
+    .footer-section_contacts_wrapper {
+      flex: 0 0 50%;
+    }
+    .footer-section_social_links_wrapper {
+      flex: 0 0 10%;
+    }
+  }
+  .footer-section {
+    padding-top: 20px;
+    .footer-section__logo-wrapper {
+      flex: 0 0 20%;
+    }
+  }
+  .footer-section_links_wrapper {
+    justify-content: space-between;
+  }
 }
 
 // ≥992px
 @include media-breakpoint-down(md) {
+  .number__block_line_first-dark {
+    left: 0px;
+  }
+  .number__block_line_second-dark {
+    left: 0px;
+  }
   .header-menu {
     display: none !important;
     visibility: hidden;
@@ -152,25 +175,25 @@
       font-size: 30px;
     }
     .studio-near-me-wrapp {
-			min-width: 0px;
-			min-width: 550px;
+      min-width: 0px;
+      min-width: 550px;
     }
   }
-  .middle-navigation{
+  .middle-navigation {
     padding: 0 10px;
-    li{
+    li {
       margin: 0 10px;
     }
   }
-  .our-professional-section__wrapper{
-    h2{
+  .our-professional-section__wrapper {
+    h2 {
       font-size: 30px;
     }
   }
-  .about-us-section__right{
- .btn-about-us{
-   margin-right: 100px;
- }
+  .about-us-section__right {
+    .btn-about-us {
+      margin-right: 100px;
+    }
   }
 }
 
@@ -199,55 +222,76 @@
   }
   .map-section {
     .studio-near-me-wrapp {
-			min-width: 0px;
-			min-width: 500px;
+      min-width: 0px;
+      min-width: 500px;
     }
   }
-  
-  .slick-arrow{
-      width: 100px;
-    }
+
+  .slick-arrow {
+    width: 100px;
+  }
   // .main-slider{
   //   justify-content: center !important;
   // }
-  .slick_slider{
+  .slick_slider {
     max-width: 350px;
     margin: 0 auto;
-    
-    
   }
-  .slider_item_wrapper{
-    
+  .slider_item_wrapper {
   }
-  .prev-slick__btn{
+  .prev-slick__btn {
     display: none !important;
-    
   }
-  .next-slick__btn{
+  .next-slick__btn {
     display: none !important;
-    
   }
-  .important-sec_right{
-    h2{
+  .important-sec_right {
+    h2 {
       left: 0;
     }
   }
-  .about-us-section__right{
-    .btn-about-us{
-      margin-right:10px;
+  .about-us-section__right {
+    .btn-about-us {
+      margin-right: 10px;
     }
-     }
-    .about-us-section__left__text{
-      font-size: 30px;
+  }
+  .about-us-section__left__text {
+    font-size: 30px;
+  }
+  .our-blog-section_card_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-blog-section_card {
+    margin-top: 20px;
+  }
+  .our-blog-section_title {
+    margin-bottom: 30px;
+  }
+  .footer-section {
+    padding-top: 20px;
+    .footer-section__logo-wrapper {
+      display: none;
     }
-    .our-blog-section_card_wrapper{
-      flex-direction: column;
-      align-items: center;
+  }
+  .footer-section_links_wrapper {
+    p {
+      font-size: 12px;
     }
-    .our-blog-section_card{
-      margin-top: 20px;
+  }
+  .footer-section_constacts_wrapper {
+    p,
+    a {
+      font-size: 12px;
     }
-    .our-blog-section_title{ margin-bottom: 30px;}
+  }
+  .footer-section__copyright {
+    p {
+      position: inherit;
+      text-align: center;
+      right: 0;
+    }
+  }
 }
 
 // ≥576px
@@ -266,10 +310,9 @@
       margin-left: 10px;
     }
     p {
-			
       font-size: 16px;
       margin-left: 10px;
-			margin-right: 20px;
+      margin-right: 20px;
     }
 
     .map-section_search__block {
@@ -277,67 +320,88 @@
         margin-left: 10px;
       }
     }
-		.studio-near-me-wrapp {
-			
-			min-width: 0px;
-			width: auto;
-		}
-		.map-section_search__block{
-			display: flex;
-			flex-direction: column;
-			button{
-				width: 150px;
-				margin-left: 10px;
-			}
-			input{
-				width: 150px;
-				margin-bottom: 15px;
-			}
-		}
+    .studio-near-me-wrapp {
+      min-width: 0px;
+      width: auto;
+    }
+    .map-section_search__block {
+      display: flex;
+      flex-direction: column;
+      button {
+        width: 150px;
+        margin-left: 10px;
+      }
+      input {
+        width: 150px;
+        margin-bottom: 15px;
+      }
+    }
   }
-  
-  .important-sec_right{display: none;}
-  .important-sec_left{max-width: 100%;}
-  .red-arrow{display: none;}
-  .professional-headshot-services-section{padding: 10px;margin-top: 10px;}
-  .important-sec_right-mobile{display: block; h2{left: 0px;} text-align: center; }
 
+  .important-sec_right {
+    display: none;
+  }
+  .important-sec_left {
+    max-width: 100%;
+  }
+  .red-arrow {
+    display: none;
+  }
+  .professional-headshot-services-section {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .important-sec_right-mobile {
+    display: block;
+    h2 {
+      left: 0px;
+    }
+    text-align: center;
+  }
 
-  .feedback-corousel-item_wrap{
-    
-    .feedback-name-block{
+  .feedback-corousel-item_wrap {
+    .feedback-name-block {
       padding: 0 5px;
     }
-    .feedback-quot{
+    .feedback-quot {
       padding: 0 5px;
-      span{
+      span {
         display: none;
       }
     }
-    img{
+    img {
       width: 100%;
       height: auto;
       padding: 0 10px;
     }
   }
-  .feedback-section-wrapper{
-    .clients-love-us{
-      h2{font-size: 30px;}
+  .feedback-section-wrapper {
+    .clients-love-us {
+      h2 {
+        font-size: 30px;
+      }
     }
   }
-  .about-us-section_inf{
+  .about-us-section_inf {
     flex-direction: column;
   }
-  .about-us-section__right{
-    .btn-about-us{
+  .about-us-section__right {
+    .btn-about-us {
       margin: 0 auto;
       margin-top: 110px;
     }
-
   }
-  .about-us-section__left__text{
+  .about-us-section__left__text {
     font-size: 25px;
     text-align: center;
+  }
+  .footer-section_tittle {
+    font-size: 14px;
+  }
+  .btn-main__red_seemore{
+    max-width: 150px;
+    padding: 12px 20px;
+    
   }
 }
 
@@ -357,5 +421,4 @@
 
 // ≤1200px
 @include media-breakpoint-up(xl) {
-
 }
