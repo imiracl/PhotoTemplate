@@ -592,6 +592,18 @@ a {
     display: inline-block;
   }
 }
+.important-sec_right-mobile {
+  max-width: 100%;
+  display: none;
+
+  h2 {
+    font-family: Tahu;
+    font-size: 60px;
+    position: relative;
+    left: 28px;
+    display: inline-block;
+  }
+}
 
 .important-sec_right_wrap {
   display: flex;

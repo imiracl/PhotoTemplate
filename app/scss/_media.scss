@@ -16,6 +16,22 @@
     
     
   }
+  .important-sec_left{
+    padding-left: 10px;
+    max-width: 50%;
+  }
+  .professional-headshot-services-section{
+    left: 0px;
+    max-width: 700px;
+    top: -110px;
+  }
+  .red-arrow{
+    left: 0px;
+  }
+  .useful-left-block{
+    margin-right: 0px;
+  }
+  
 }
 // ≥1200px
 @include media-breakpoint-down(lg) {
@@ -59,6 +75,30 @@
     h2 {
       font-size: 30px;
     }
+  }
+  .important-sec_right_wrap{
+    flex-direction: column;
+    
+  }
+  .useful-left-block{
+    width: 100%;
+  }
+  .useful-right-block{
+    width: 100%;
+  }
+  .important-sec_right{
+    width: 45%;
+    margin-left: auto;
+  }
+  .professional-headshot-services-section{
+    max-width: 100%;
+    top: -20px;
+  }
+  .useful-content{
+    margin-bottom: 30px;
+  }
+  .red-arrow{
+    
   }
 }
 
@@ -152,7 +192,11 @@
     display: none !important;
     
   }
-  
+  .important-sec_right{
+    h2{
+      left: 0;
+    }
+  }
 }
 
 // ≥576px
@@ -201,8 +245,11 @@
 		}
   }
   
-  
-
+  .important-sec_right{display: none;}
+  .important-sec_left{max-width: 100%;}
+  .red-arrow{display: none;}
+  .professional-headshot-services-section{padding: 10px;margin-top: 10px;}
+  .important-sec_right-mobile{display: block; h2{left: 0px;} text-align: center; }
 }
 
 /*==========  Mobile First  ==========*/
