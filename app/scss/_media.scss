@@ -199,7 +199,17 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
+  .our-professional-section{
+    margin-top: 20px;
+  }
+  .our-blog-section{
+    padding-bottom: 20px;
+  }
+  .important-section{
+    margin-top: 20px;
+  }
   .sessions-section {
+    margin-top: 10px;
     h3 {
       font-size: 20px;
     }
