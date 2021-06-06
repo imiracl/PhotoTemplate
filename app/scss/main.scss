@@ -11,6 +11,11 @@ body {
   //box-sizing:border-box;
 }
 
+button:focus{
+  outline: none;
+}
+
+
 a {
   text-decoration: none !important;
 
@@ -32,6 +37,7 @@ a {
 }
 
 .section-header {
+ 
   
   .header-menu {
     padding-top: 46px;
@@ -65,10 +71,19 @@ a {
   }
 
   a {
+    transition: 0.3s ease;
     margin-right: 39px;
     color: #222222;
     font-family: Poppins-Medium;
     white-space: nowrap;
+    border-bottom: 4px solid #ffffff;
+    
+    &:hover{
+      border-bottom: 3px solid #d80303;
+      color:#d80303;
+     
+    }
+    
   }
 }
 
@@ -79,6 +94,13 @@ a {
 
   img {
     margin: 0px 6px;
+  }
+  a{
+    transition: 0.3s ease;
+    &:hover{
+      margin-top: -5px;
+     
+    }
   }
 }
 
@@ -92,6 +114,9 @@ a {
   color: white;
   font-size: 16px;
   white-space: nowrap;
+  cursor: pointer;
+  z-index:300;
+  transition:all .5s ease-in-out;
 
   &_seemore {
     padding: 12px 70px;
@@ -103,6 +128,19 @@ a {
 
   &-light {
   }
+  &:hover{
+    text-shadow:
+    0 0 5px rgba(255,255,255, 1),
+    0 0 10px rgba(255, 255, 255, .8),
+    0 0 15px rgba(255, 255, 255, .6);
+    
+   
+  }
+  &:active {
+    transition: none ;
+    transform: translateY(-3px);
+    
+  }
 }
 
 .btn__small {
@@ -111,6 +149,7 @@ a {
 .btn__big{
   padding: 10px 35px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .header-illustration {
@@ -121,7 +160,7 @@ a {
  // background-size: 100%;
   //background-size: %;
   padding-bottom: 70px;
-  z-index: -6;
+  z-index: 3;
 }
 
 .header-illustration:before {
@@ -401,6 +440,13 @@ a {
       color: #ababab;
       font-size: 18px;
       font-family: Poppins-Regular;
+      transition: 0.3s ease;
+
+      &:hover{
+        border-bottom: 3px solid #d80303;
+        color:#d80303;
+      }
+
     }
   }
 
@@ -465,9 +511,16 @@ a {
 }
 
 .slick-arrow {
+  transition:all .5s ease-in-out;
   width: 350px;
   background-color: #f6f6f6;
   border: none;
+  
+  &:hover{
+    background-color: rgba(143, 135, 135, 0.308);
+    color:#ff9292;
+
+  }
 }
 
 .slick-disabled {
